@@ -314,13 +314,13 @@ background-image: radial-gradient(#374566, #010203);
 
     </div>
     <script>
-        document.getElementById('image').addEventListener('mouseenter', ()=>{
+        document.getElementById('image').addEventListener('click', ()=>{
             const images = document.getElementById('image');
             images.src = "edit.png";
             console.log(images)
         })
 
-        document.getElementById('image').addEventListener('mouseout', ()=>{
+        document.getElementById('image').addEventListener('click', ()=>{
             const images = document.getElementById('image');
             images.src = "edit2.png";
         })
